@@ -42,23 +42,16 @@ const Footer = () => {
           <nav className="flex flex-col gap-4">
             <div>
               <a
-                href="#"
+                href="/Overview"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Overview
               </a>
             </div>
+            
             <div>
               <a
-                href="#"
-                className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-              >
-                Solutions
-              </a>
-            </div>
-            <div>
-              <a
-                href="#"
+                href="/Pricing"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Pricing
@@ -66,7 +59,7 @@ const Footer = () => {
             </div>
             <div>
               <a
-                href="#"
+                href="/Customers"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Customers
@@ -97,22 +90,8 @@ const Footer = () => {
                 Investor Relations
               </a>
             </div>
-            <div>
-              <a
-                href="#"
-                className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-              >
-                Jobs
-              </a>
-            </div>
-            <div>
-              <a
-                href="#"
-                className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-              >
-                Press
-              </a>
-            </div>
+           
+           
             <div>
               <a
                 href="#"
@@ -132,31 +111,17 @@ const Footer = () => {
           <nav className="flex flex-col gap-4">
             <div>
               <a
-                href="#"
+                href="/Contact"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Contact
               </a>
             </div>
+           
+           
             <div>
               <a
-                href="#"
-                className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-              >
-                Documentation
-              </a>
-            </div>
-            <div>
-              <a
-                href="#"
-                className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-              >
-                Chat
-              </a>
-            </div>
-            <div>
-              <a
-                href="#"
+                href="/FAQ"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 FAQ
@@ -173,7 +138,7 @@ const Footer = () => {
           <nav className="flex flex-col gap-4">
             <div>
               <a
-                href="/termsofservice"
+                href="/TermsOfService"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Terms of Service
