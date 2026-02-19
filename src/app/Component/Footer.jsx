@@ -76,7 +76,7 @@ const Footer = () => {
           <nav className="flex flex-col gap-4">
             <div>
               <a
-                href="#"
+                href="/About"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 About
@@ -84,7 +84,7 @@ const Footer = () => {
             </div>
             <div>
               <a
-                href="#"
+                href="/InvestorRelations"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Investor Relations
@@ -94,7 +94,7 @@ const Footer = () => {
            
             <div>
               <a
-                href="#"
+                href="/Blog"
                 className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
               >
                 Blog

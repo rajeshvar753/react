@@ -5,8 +5,8 @@ import Image from 'next/image'
 export const Home = () => {
   return (
     <div>
-     <div className="bg-white lg:pb-12">
-  <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+     <div className="bg-transparent bg-white  sticky top-0 z-50">
+  <div className="mx-auto max-w-screen-2xl px-2 md:px-8 ">
     <header className="flex items-center justify-between py-4 md:py-8">
       {/* logo - start */}
       <a
@@ -24,7 +24,7 @@ export const Home = () => {
       </a>
       {/* logo - end */}
       {/* nav - start */}
-      <nav className="hidden gap-12 lg:flex">
+      <nav className="hidden gap-12 lg:flex ">
     
       </nav>
       {/* nav - end */}
