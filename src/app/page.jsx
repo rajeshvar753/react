@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
+import Pricing from './Pricing/page'
 
 export const Home = () => {
   return (
@@ -382,6 +383,12 @@ We believe successful investing starts with the right information at the right t
     </div>
   </div>
 </div>
+
+{/* pricing */}
+
+<Pricing/>
+
+{/* End Pricing */}
 
 
     </div>
