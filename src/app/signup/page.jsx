@@ -1,11 +1,47 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 export default function Signup() {
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
+  const handleSignup = async (e) => {
+
+    e.preventDefault();
+
+    if (password !== confirmPassword) {
+      alert("Passwords do not match");
+      return;
+    }
+
+    const response = await fetch("http://localhost:5000/api/auth/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        name: email.split("@")[0], // simple name
+        email: email,
+        password: password
+      })
+    });
+
+    const data = await response.json();
+
+    alert(data.message);
+
+    if (data.message === "User registered successfully") {
+      window.location.href = "/login";
+    }
+
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
       <div className="bg-white w-full max-w-md rounded-xl shadow-lg p-8">
-        
-        {/* Title */}
+
         <h2 className="text-2xl font-bold text-center text-gray-800">
          Welcome to BharatInvesto
          <br/> Create Your Account
@@ -18,7 +54,6 @@ export default function Signup() {
           </a>
         </p>
 
-        {/* Google Button */}
         <button className="w-full mt-6 border border-gray-300 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50 transition">
           <img
             src="https://www.svgrepo.com/show/475656/google-color.svg"
@@ -30,22 +65,24 @@ export default function Signup() {
           </span>
         </button>
 
-        {/* OR Divider */}
         <div className="flex items-center my-6">
           <div className="flex-grow border-t border-gray-300"></div>
           <span className="mx-3 text-xs text-gray-400">OR</span>
           <div className="flex-grow border-t border-gray-300"></div>
         </div>
 
-        {/* Form */}
-        <form className="space-y-4">
+        {/* FORM */}
+        <form onSubmit={handleSignup} className="space-y-4">
+
           <div>
             <label className="block text-sm text-gray-700 mb-1">
               Email address
             </label>
             <input
               type="email"
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              value={email}
+              onChange={(e)=>setEmail(e.target.value)}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2"
             />
           </div>
 
@@ -55,7 +92,9 @@ export default function Signup() {
             </label>
             <input
               type="password"
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              value={password}
+              onChange={(e)=>setPassword(e.target.value)}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2"
             />
           </div>
 
@@ -65,11 +104,12 @@ export default function Signup() {
             </label>
             <input
               type="password"
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              value={confirmPassword}
+              onChange={(e)=>setConfirmPassword(e.target.value)}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2"
             />
           </div>
 
-          {/* Terms */}
           <div className="flex items-center gap-2 text-sm">
             <input type="checkbox" className="accent-blue-600" />
             <span>
@@ -80,17 +120,15 @@ export default function Signup() {
             </span>
           </div>
 
-          {/* Submit Button */}
           <button
             type="submit"
             className="w-full bg-blue-600 text-white rounded-lg py-2.5 font-medium hover:bg-blue-700 transition"
           >
             Sign up
           </button>
+
         </form>
       </div>
     </div>
   );
 }
-
-
