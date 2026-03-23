@@ -33,7 +33,7 @@ export default function Signup() {
     alert(data.message);
 
     if (data.message === "User registered successfully") {
-      window.location.href = "/login";
+      window.location.href = "/home";
     }
 
   };

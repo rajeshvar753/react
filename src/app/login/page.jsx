@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const Login = () => {
@@ -29,7 +30,7 @@ const Login = () => {
 
       alert("Login Successful");
 
-      window.location.href = "/dashboard";
+      window.location.href = "/home";
 
     } else {
 
