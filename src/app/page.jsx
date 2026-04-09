@@ -72,10 +72,10 @@ export const Home = () => {
   {/* Grid */}
   <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
     <div>
-      <h1 className="block text-2xl font-bold text-foreground sm:text-4xl lg:text-4xl lg:leading-tight">Start your investing journey
-with <span className="text-primary">BharatInvesto</span></h1>
-      <p className="mt-3 text-lg text-foreground">Data-driven strategies and real-time market analysis to help you invest with confidence.
-Access intelligent insights, track market trends instantly, and uncover high-potential opportunities — all in one platform designed to simplify investing and maximize long-term growth.</p>
+      <h1 className="block text-2xl font-bold text-foreground sm:text-4xl lg:text-4xl lg:leading-tight">Master the Markets with Expert 
+<span className="text-primary">Stock Suggestions</span></h1>
+      <p className="mt-3 text-lg text-foreground">High-conviction stock picks backed by in-depth chart analysis and logical reasoning. 
+Access expert insights, technical breakdowns, and real-time market opportunities — all in one platform designed to refine your trading strategy and maximize growth.</p>
 
       {/* Buttons */}
       <div className="mt-7 grid gap-3 w-full sm:inline-flex">
@@ -202,11 +202,11 @@ Access intelligent insights, track market trends instantly, and uncover high-pot
           Our competitive advantage
         </h1>
         <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-          BharatInvesto is a modern stock market platform built to simplify investing for Indian investors. We combine data-driven strategies, real-time market insights, and powerful analytics to help you make confident financial decisions.
+          BharatInvesto is a specialized stock analysis platform built to deliver high-quality stock suggestions for Indian traders. We combine technical chart analysis, logical reasoning, and real-time market insights to help you identify high-potential opportunities.
 
-Our mission is to make investing smarter, clearer, and more accessible — whether you’re a beginner exploring the markets or an experienced investor managing a diversified portfolio.
+Our mission is to make stock analysis simpler, clearer, and more actionable — whether you’re looking for short-term breakouts or long-term structural trends.
 
-We believe successful investing starts with the right information at the right time. That’s why BharatInvesto provides reliable research, trend analysis, and performance tracking tools — all in one place.
+We believe successful trading starts with deep analysis and clear reasoning. That’s why BharatInvesto provides detailed chart breakdowns, pattern recognition, and performance tracking — all in one place.
           <br />
           <br />
          
@@ -216,7 +216,7 @@ We believe successful investing starts with the right information at the right t
           Our Vision
         </h2>
         <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-          To empower every Indian investor with intelligent tools, transparent insights, and technology-driven solutions that create long-term wealth.
+          To empower every Indian trader with expert-level stock suggestions, transparent reasoning, and advanced chart analysis that builds trading confidence.
         </p>
       </div>
     </div>
@@ -231,7 +231,7 @@ We believe successful investing starts with the right information at the right t
         Frequently asked questions
       </h2>
       <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-       Get clear answers about investing, market insights, and how BharatInvesto helps you grow your wealth.
+       Get clear answers about our stock suggestions, chart analysis methods, and how BharatInvesto helps you identify high-potential trades.
       </p>
     </div>
     {/* text - end */}
@@ -256,7 +256,7 @@ We believe successful investing starts with the right information at the right t
          How does BharatInvesto work?
         </h3>
         <p className="text-gray-500">
-        BharatInvesto provides real-time stock market data, advanced analytics, and research-based insights. Our platform helps you analyze stocks, track trends, and make informed investment decisions with confidence.
+        BharatInvesto provides daily stock suggestions based on technical chart analysis and fundamental reasoning. Our platform helps you understand the 'why' behind every pick, so you can trade with clarity and confidence.
         </p>
       </div>
       {/* question - end */}
@@ -280,7 +280,7 @@ We believe successful investing starts with the right information at the right t
        What features does BharatInvesto offer?
         </h3>
         <p className="text-gray-500">
-        We offer live stock tracking, technical and fundamental analysis tools, smart alerts, portfolio management, and data-driven investment strategies — all designed for Indian investors.
+        We offer expert stock suggestions, detailed chart analysis (technical patterns), logical reasoning for every trade, and real-time market alerts — all tailored for the Indian stock market.
         </p>
       </div>
       {/* question - end */}
@@ -304,7 +304,7 @@ We believe successful investing starts with the right information at the right t
           Is BharatInvesto suitable for beginners?
         </h3>
         <p className="text-gray-500">
-        Yes. Whether you're new to investing or an experienced trader, our platform provides easy-to-understand insights along with powerful tools to support every level of investor.
+        Yes. We break down complex chart patterns and market data into easy-to-understand suggestions with clear reasoning, making it perfect for both new and experienced traders.
         </p>
       </div>
       {/* question - end */}
@@ -352,7 +352,7 @@ We believe successful investing starts with the right information at the right t
          Are there subscription plans available?
         </h3>
         <p className="text-gray-500">
-        Yes. BharatInvesto offers flexible plans based on your investing needs — from basic market insights to advanced professional analytics.
+        Yes. BharatInvesto offers flexible plans based on your trading needs — from high-conviction suggestions to advanced professional chart analysis.
         </p>
       </div>
       {/* question - end */}

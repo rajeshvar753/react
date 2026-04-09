@@ -8,8 +8,8 @@ export default function About() {
           About BharatInvesto
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Empowering investors with data-driven insights, real-time market analysis,
-          and research-backed strategies to build long-term wealth.
+          Empowering traders with expert stock suggestions, detailed reasoning,
+          and technical chart analysis to identify the best market opportunities.
         </p>
       </section>
 
@@ -20,13 +20,14 @@ export default function About() {
             Who We Are
           </h2>
           <p className="text-gray-600 mb-4">
-            BharatInvesto is a stock market insights platform focused on delivering
-            reliable financial research and educational resources. Our goal is to
-            simplify market data and help investors make informed decisions.
+            BharatInvesto is a specialized stock analysis platform focused on delivering
+            high-conviction stock suggestions and in-depth technical research. Our 
+            goal is to provide the 'why' behind every trade by combining pattern 
+            recognition with logical reasoning.
           </p>
           <p className="text-gray-600">
-            We believe that smart investing is built on knowledge, discipline,
-            and strategy — not speculation.
+            We believe that successful trading is built on discipline, strategy, 
+            and deep analysis — not guesswork.
           </p>
         </div>
 
@@ -47,10 +48,10 @@ export default function About() {
             Our Mission
           </h2>
           <p className="text-gray-600">
-            Our mission is to empower retail investors across India by providing
-            transparent market insights, risk-aware strategies, and structured
-            learning resources. We aim to make stock market participation
-            informed, confident, and responsible.
+            Our mission is to empower retail traders across India by providing
+            expert-level stock suggestions, transparent reasoning, and high-quality
+            chart analysis. We aim to make the stock market more accessible by 
+            breaking down complex patterns into actionable insights.
           </p>
         </div>
       </section>
@@ -67,8 +68,8 @@ export default function About() {
               Market Research
             </h3>
             <p className="text-gray-600">
-              In-depth stock analysis, sector insights, and trend evaluations
-              to help you understand market movements.
+              In-depth stock suggests, technical chart analysis, and logic-based 
+              reasoning to help you understand every price movement.
             </p>
           </div>
 
@@ -77,8 +78,8 @@ export default function About() {
               Real-Time Updates
             </h3>
             <p className="text-gray-600">
-              Timely market updates and analysis to keep you informed
-              about important developments.
+              Timely stock alerts and analysis to keep you ahead of 
+              significant breakout opportunities.
             </p>
           </div>
 
@@ -87,8 +88,8 @@ export default function About() {
               Investor Education
             </h3>
             <p className="text-gray-600">
-              Educational content designed to improve financial literacy
-              and long-term investment skills.
+              Educational breakdowns of technical patterns and trading logic
+              to sharpen your market analysis skills.
             </p>
           </div>
         </div>
@@ -101,11 +102,11 @@ export default function About() {
             Our Core Values
           </h2>
           <p className="text-gray-600 mb-4">
-            Transparency • Integrity • Research-Driven Decisions • Long-Term Vision
+            Transparency • Logic-Driven Analysis • Strategy Over Speculation
           </p>
           <p className="text-gray-600">
-            We prioritize responsible investing and aim to provide content
-            that is factual, unbiased, and educational in nature.
+            We prioritize logical analysis and aim to provide content
+            that is pattern-based, transparent, and actionable.
           </p>
         </div>
       </section>
@@ -113,11 +114,11 @@ export default function About() {
       {/* CTA Section */}
       <section className="py-16 px-6 text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          Start Your Investment Journey Today
+          Start Your Smarter Trading Journey Today
         </h2>
         <p className="text-gray-600 mb-6">
-          Join BharatInvesto and take informed steps toward building
-          sustainable wealth.
+          Join BharatInvesto and gain the edge with expert chart analysis
+          and logical stock suggestions.
         </p>
         <a
           href="/Pricing"

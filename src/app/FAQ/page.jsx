@@ -8,8 +8,8 @@ export default function FAQ() {
           Frequently Asked Questions
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Find answers to common questions about BharatInvesto, our services,
-          and how we help investors make smarter decisions.
+          Find answers to common questions about BharatInvesto, our stock 
+          suggestions, and our chart analysis methods.
         </p>
       </section>
 
@@ -21,9 +21,9 @@ export default function FAQ() {
             What is BharatInvesto?
           </h3>
           <p className="text-gray-600">
-            BharatInvesto is a stock market insights platform providing 
-            data-driven strategies, real-time analysis, and educational 
-            resources to help investors make informed financial decisions.
+            BharatInvesto is a specialized stock analysis platform providing 
+            expert stock suggestions, technical chart analysis, and logical 
+            reasoning to help traders navigate the Indian markets.
           </p>
         </div>
 
@@ -40,12 +40,12 @@ export default function FAQ() {
 
         <div>
           <h3 className="text-xl font-semibold mb-2">
-            Do you provide buy/sell recommendations?
+            Do you provide stock suggestions and analysis?
           </h3>
           <p className="text-gray-600">
-            Our platform shares research-based insights and market analysis. 
-            Investment decisions should be made at your own discretion after 
-            proper research or consultation with a licensed advisor.
+            Yes, we provide high-conviction stock suggestions backed by 
+            detailed chart analysis and logical reasoning. Every suggestion 
+            includes a breakdown of price patterns and key levels.
           </p>
         </div>
 
@@ -54,8 +54,9 @@ export default function FAQ() {
             Is there a subscription plan?
           </h3>
           <p className="text-gray-600">
-            Yes, BharatInvesto offers both free insights and premium plans 
-            with advanced analysis, priority updates, and exclusive reports.
+            Yes, BharatInvesto offers both free analysis and premium plans 
+            with high-conviction suggestions, detailed chart breakdowns, 
+            and real-time breakout alerts.
           </p>
         </div>
 
@@ -77,7 +78,7 @@ export default function FAQ() {
           Still have questions?
         </h2>
         <p className="text-gray-600 mb-6">
-          Our team is here to help you make confident investment decisions.
+          Our team is here to help you make confident trading decisions with expert analysis.
         </p>
         <a
           href="/Contact"

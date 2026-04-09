@@ -20,13 +20,14 @@ export default function InvestorRelations() {
             Financial Overview
           </h2>
           <p className="text-gray-600 mb-4">
-            BharatInvesto is committed to sustainable growth and responsible
-            financial management. We focus on building a scalable digital
-            platform that delivers value to investors and stakeholders.
+            BharatInvesto is committed to scaling its digital stock analysis 
+            ecosystem. We focus on building a high-growth platform that delivers 
+            value to traders and stakeholders through specialized technical 
+            research and premium suggestions.
           </p>
           <p className="text-gray-600">
-            Our revenue model is built around subscription services, premium
-            research access, and strategic partnerships.
+            Our revenue model is built around pro subscriptions, expert chart 
+            analysis access, and strategic Fintech partnerships.
           </p>
         </div>
 

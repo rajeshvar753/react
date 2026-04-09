@@ -39,8 +39,9 @@ export default function TermsOfService() {
             2. Nature of Services
           </h2>
           <p className="text-gray-700 leading-relaxed mb-3">
-            BharatInvesto provides stock market insights, analytics tools,
-            educational financial content, and portfolio tracking features.
+            BharatInvesto provides specialized stock suggestions, technical 
+            chart analysis, logical reasoning breakdowns, and related 
+            educational financial content.
           </p>
           <p className="text-gray-700 font-medium">
             We do not provide financial, investment, tax, or legal advice.
@@ -54,10 +55,11 @@ export default function TermsOfService() {
             3. No Investment Advice
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            The content on BharatInvesto does not constitute a recommendation
-            to buy or sell securities. Investing in the stock market involves
-            risk, including potential loss of capital. You are solely
-            responsible for your investment decisions.
+            The stock suggestions and chart analysis on BharatInvesto do 
+            not constitute a recommendation to buy or sell securities. 
+            All content is for informational and educational purposes. 
+            Investing and trading involve significant risk. You are 
+            solely responsible for your own trading decisions.
           </p>
         </section>
 

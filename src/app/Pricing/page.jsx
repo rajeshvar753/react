@@ -9,7 +9,7 @@ export default function Pricing() {
             Simple & Transparent Pricing
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Choose a plan that fits your investment journey. Upgrade anytime as you grow with BharatInvesto.
+            Choose a plan that fits your trading journey. Gain the edge with expert suggestions and chart analysis.
           </p>
         </div>
 
@@ -24,8 +24,8 @@ export default function Pricing() {
 
             <ul className="space-y-3 text-gray-700 mb-8">
               <li>✔ Live Market Overview</li>
-              <li>✔ Basic Stock Tracking</li>
-              <li>✔ Limited Research Access</li>
+              <li>✔ Daily Stock Watchlist</li>
+              <li>✔ Basic Research Access</li>
               <li>✔ Community Support</li>
             </ul>
 
@@ -47,11 +47,11 @@ export default function Pricing() {
             <p className="text-gray-300 mb-6">per month</p>
 
             <ul className="space-y-3 mb-8">
-              <li>✔ Real-Time Market Data</li>
-              <li>✔ Advanced Technical Analysis</li>
-              <li>✔ Portfolio Tracking</li>
-              <li>✔ Smart Alerts & Notifications</li>
-              <li>✔ In-Depth Research Reports</li>
+              <li>✔ Daily Stock Suggestions</li>
+              <li>✔ Technical Chart Analysis</li>
+              <li>✔ Logical Reasoning Breakdown</li>
+              <li>✔ Real-Time Entry/Exit Alerts</li>
+              <li>✔ Weekly Sector Analysis</li>
             </ul>
 
             <button className="w-full bg-white text-black py-3 rounded-lg hover:bg-gray-200 transition">
@@ -67,10 +67,10 @@ export default function Pricing() {
 
             <ul className="space-y-3 text-gray-700 mb-8">
               <li>✔ Everything in Pro</li>
-              <li>✔ Exclusive Stock Picks</li>
-              <li>✔ Priority Support</li>
-              <li>✔ Advanced Strategy Tools</li>
-              <li>✔ Early Feature Access</li>
+              <li>✔ High-Conviction Stock Picks</li>
+              <li>✔ One-on-One Analysis Support</li>
+              <li>✔ Advanced Reversal Patterns</li>
+              <li>✔ Early Access to Breakouts</li>
             </ul>
 
             <button className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition">
@@ -83,7 +83,7 @@ export default function Pricing() {
         {/* Bottom Note */}
         <div className="text-center mt-16">
           <p className="text-gray-600">
-            All plans are designed to empower smarter investing.  
+            All plans are designed to empower smarter trading.  
             Cancel or upgrade anytime.
           </p>
         </div>

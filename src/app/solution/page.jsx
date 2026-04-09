@@ -6,7 +6,7 @@ export default function Solutions() {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Smart Investment Solutions
+            Expert Stock Analysis Solutions
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             BharatInvesto provides powerful tools and intelligent insights to
@@ -22,8 +22,8 @@ export default function Solutions() {
               📉 Market Uncertainty?
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              We deliver real-time data and trend analysis so you can make
-              informed decisions instead of emotional trades.
+              We deliver expert stock suggestions and technical breakouts so you 
+              can trade based on logic instead of emotional impulses.
             </p>
           </div>
 
@@ -32,8 +32,8 @@ export default function Solutions() {
               📊 Too Much Data, No Clarity?
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Our advanced analytics simplify complex data into actionable
-              insights that are easy to understand and use.
+              Our chart analysis breaks down complex price movements into 
+              simple, actionable trading logic that's easy to follow.
             </p>
           </div>
 
@@ -42,8 +42,8 @@ export default function Solutions() {
               💼 Struggling to Track Portfolio?
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Monitor all your investments in one dashboard with performance
-              tracking and intelligent reporting tools.
+              Understand the 'Why' behind every pick with our transparent 
+              reasoning and detailed technical chart breakdowns.
             </p>
           </div>
 
@@ -52,8 +52,8 @@ export default function Solutions() {
               🔔 Missing Market Opportunities?
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Get smart alerts and notifications so you never miss important
-              market movements or price changes.
+              Get real-time breakout alerts and entry/exit strategy notes so 
+              you never miss a high-conviction market movement.
             </p>
           </div>
 
@@ -62,31 +62,31 @@ export default function Solutions() {
         {/* Target Audience Section */}
         <div className="mb-20">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-            Built For Every Investor
+            Built For Every Trader
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white shadow-md rounded-xl p-6 text-center">
               <h3 className="font-semibold text-lg mb-3">🎯 Beginners</h3>
               <p className="text-gray-600">
-                Easy-to-understand insights and simplified tools to start your
-                investing journey confidently.
+                Easy-to-follow chart breakdowns and logic-based suggestions to 
+                start your trading journey with precision.
               </p>
             </div>
 
             <div className="bg-white shadow-md rounded-xl p-6 text-center">
               <h3 className="font-semibold text-lg mb-3">📈 Active Traders</h3>
               <p className="text-gray-600">
-                Real-time analytics, alerts, and strategy tools designed for
-                faster decision-making.
+                Advanced technical patterns, logic-based reasoning, and breakout 
+                alerts designed for high-performance trading.
               </p>
             </div>
 
             <div className="bg-white shadow-md rounded-xl p-6 text-center">
               <h3 className="font-semibold text-lg mb-3">💎 Long-Term Investors</h3>
               <p className="text-gray-600">
-                Research-backed insights and portfolio tracking to support
-                long-term wealth creation.
+                High-conviction structural picks and long-term chart trends 
+                to support sustainable portfolio growth.
               </p>
             </div>
           </div>
@@ -95,11 +95,11 @@ export default function Solutions() {
         {/* CTA Section */}
         <div className="bg-black text-white rounded-2xl p-12 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Invest Smarter with BharatInvesto
+            Trade Smarter with BharatInvesto
           </h2>
           <p className="max-w-2xl mx-auto mb-8 text-gray-300">
-            Transform market data into actionable investment strategies and
-            stay ahead in dynamic market conditions.
+            Transform professional chart analysis into actionable trading logic 
+            and stay ahead in every market cycle.
           </p>
 
           <button className="bg-white text-black px-8 py-3 rounded-lg font-medium hover:bg-gray-200 transition">

@@ -9,9 +9,10 @@ export default function Overview() {
             Overview of BharatInvesto
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            BharatInvesto is a modern stock market intelligence platform designed
-            to empower Indian investors with data-driven strategies, real-time
-            analytics, and powerful research tools — all in one place.
+            BharatInvesto is a specialized stock market intelligence platform 
+            dedicated to providing high-conviction stock suggestions, detailed 
+            chart analysis, and transparent logical reasoning — all designed to 
+            give Indian traders a definitive market edge.
           </p>
         </div>
 
@@ -22,9 +23,9 @@ export default function Overview() {
               Our Mission
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              To simplify investing by providing transparent, research-backed
-              insights that help individuals make confident and informed
-              financial decisions.
+              To deliver expert stock suggestions backed by logic and technical 
+              patterns, helping traders navigate the markets with clarity 
+              and confidence.
             </p>
           </div>
 
@@ -33,9 +34,9 @@ export default function Overview() {
               Our Vision
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              To become a trusted investment intelligence platform for every
-              Indian investor — from beginners to experienced market
-              participants.
+              To become the most reliable source for chart-based stock 
+              analysis and trading logic for the Indian stock market 
+              community.
             </p>
           </div>
         </div>
@@ -49,28 +50,28 @@ export default function Overview() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white shadow-md rounded-xl p-6">
               <h3 className="font-semibold text-lg mb-3">
-                📊 Real-Time Market Data
+                🎯 Expert Stock Suggestions
               </h3>
               <p className="text-gray-600">
-                Track live stock prices, trends, and market movements instantly.
+                Daily high-conviction stock picks across various sectors.
               </p>
             </div>
 
             <div className="bg-white shadow-md rounded-xl p-6">
               <h3 className="font-semibold text-lg mb-3">
-                📈 Advanced Analytics
+                📈 Technical Chart Analysis
               </h3>
               <p className="text-gray-600">
-                Use technical and fundamental analysis tools to evaluate stocks.
+                In-depth breakdown of price patterns and key support/resistance levels.
               </p>
             </div>
 
             <div className="bg-white shadow-md rounded-xl p-6">
               <h3 className="font-semibold text-lg mb-3">
-                💼 Portfolio Tracking
+                🧠 Logical Reasoning
               </h3>
               <p className="text-gray-600">
-                Monitor your investments and track performance in one dashboard.
+                Understand the "why" behind every suggestion with transparent logic.
               </p>
             </div>
 
@@ -85,10 +86,10 @@ export default function Overview() {
 
             <div className="bg-white shadow-md rounded-xl p-6">
               <h3 className="font-semibold text-lg mb-3">
-                📑 Research Insights
+                📊 Pattern Recognition
               </h3>
               <p className="text-gray-600">
-                Access in-depth stock research and data-backed strategies.
+                Expert identification of breakouts, reversals, and trend continuations.
               </p>
             </div>
 
@@ -109,10 +110,10 @@ export default function Overview() {
             Why Choose BharatInvesto?
           </h2>
           <p className="text-gray-700 max-w-3xl mx-auto leading-relaxed mb-6">
-            We combine technology, research, and real-time intelligence to
-            deliver a seamless investing experience. Our platform focuses on
-            clarity, transparency, and performance — helping you stay ahead in
-            dynamic market conditions.
+            We blend expert chart analysis with transparent reasoning to
+            deliver a superior trading experience. Our platform focuses on
+            high-conviction ideas, clear logic, and actionable insights —
+            helping you stay ahead in dynamic market conditions.
           </p>
 <a href="/signup" className="text-black underline">
           <button className="bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition">

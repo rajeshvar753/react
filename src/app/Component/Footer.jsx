@@ -1,9 +1,19 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import React from 'react';
+import { usePathname } from "next/navigation";
 
-import React from 'react'
+const HIDDEN_ROUTES = ["/login", "/signup", "/forgot-password", "/home", "/admin"];
 
 const Footer = () => {
+  const pathname = usePathname();
+
+  // Hide footer on auth pages, dashboards, and dynamic reset-password route
+  if (HIDDEN_ROUTES.includes(pathname) || pathname.startsWith("/reset-password")) {
+    return null;
+  }
+
   return (
     <div>
 <footer className="bg-white">
